@@ -17,9 +17,8 @@ body{
 }
 .kms{
     color: rgb(255, 106, 0);
-    padding-left: 3.5rem;
+    padding-left: 3rem;
     font-size: 0.9rem;
-    /* font-family: 'Times New Roman', Times, serif; */
     font-family: cursive;
 }
 .kms-develop{
@@ -202,8 +201,8 @@ footer{
     padding-top: 0.3rem;
 }
 .kms{
-    padding-left: 3rem;
-    font-size: 0.7rem;
+    padding-left: 2.5rem;
+    font-size: 0.6rem;
 }
 /* top-div ends here. */
 
