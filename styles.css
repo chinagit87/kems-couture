@@ -1,0 +1,305 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+/* top-div starts here. */
+.fixed-top{
+    background-color: #fff;
+}
+.kms-logo{
+    border-radius: 100px;
+}
+.top-h1{
+    text-align: left;
+    color: rgb(52, 52, 105);
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: -0.8rem;  
+}
+.kms{
+    color: rgb(255, 106, 0);
+    padding-left: 3.5rem;
+    font-size: 0.9rem;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: cursive;
+}
+.kms-develop{
+    text-align: left;
+    font-size: 0.7rem;
+    color: gray;
+}
+/* top-div ends here. */
+
+/* navbar section starts here. */
+.navbar{
+    background-color: rgb(52, 52, 105);
+    margin-top: 4rem;
+    padding: 0;
+}
+.dropdown-menu li a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.nav-link{
+    font-family: "Montserrat-light";
+}
+.dropdown-menu li a{
+    color: #8393aa;
+    padding-left: 2rem;
+}
+a.navbar-a-tags{
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration:none ;
+    display: block;
+    margin: 0.5rem;
+} 
+a.navbar-a-tags:hover{
+    color: #8393aa;
+}
+.kms-nav{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: -1rem;
+    font-size: 1.2rem;
+    margin: 0 4rem 0 1rem;
+}
+.kms-nav:hover{
+    text-decoration: none;
+}
+/* navbar section ends here. */
+
+/* advert section starts here. */
+.advert p{
+    text-align: center;
+}
+.advert h4{
+    text-align: center;
+}
+/* advert section starts here. */
+
+/* global styling starts here. */
+
+/* arrange everything in the card div to be in the center */
+.card {
+  text-align: center;
+} 
+.card:hover{
+    padding-top: 4px;
+}
+.card p{
+    color: #000;
+}
+.card p:hover{
+    text-decoration: none;
+}
+/* card section ends here. */
+
+/* Float the columns side by side */
+.column {
+  float: left;
+  width: 50%;
+  padding: 0 5px;
+  box-shadow: 0 4px 8px 0 rgba(12, 7, 7, 0.2);
+}
+.column img{
+  height: 15rem;
+}
+
+/* Remove extra left and right margins, due to padding and marging that's added by code editor */
+.col-md-4 {
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid; */
+}
+
+/* added padding at the left and right side of the website and also added space add the div row tops  */
+.row{
+    padding: 0 2% 0 4.5%;
+    margin-top: 10%;
+    width: 100%;
+    margin-bottom: -8rem;
+}
+.style-2{
+   margin-top: 1.5rem;
+}
+.style-3{
+  margin-top: 1rem;
+}
+.style-5{
+    margin-top: 2rem;
+}
+.style-6{
+    margin-top: 1.3rem;
+}
+/* global styling ends here. */
+
+/* our styles section starts here */
+.our-styles{
+    margin-top: 5rem;   
+}
+/* our styles section ends here. */
+
+/* contact section starts here. */
+
+.contact-h1{
+    margin-top: 7rem;
+    padding-left: 2rem;
+    margin-bottom: -0.8rem; 
+    font-family: 'Times New Roman', Times, serif;
+}
+.contact{
+    margin-top: 4rem 0 0 0;
+    padding-left: 2rem;
+}
+hr{
+    width: 40%;
+    margin-left: 0;
+}
+.web-com:hover{
+    text-decoration: none;
+}
+/* contact section ends here. */
+
+/* button section starts here.  */
+.button{
+    text-align: center;
+    margin: 13rem 0 -6rem 0;
+}
+/* button section ends here.  */
+
+/* footer section starts here. */
+footer{
+    background-color: rgb(18, 18, 97);
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem;
+    margin-top: 10rem;
+}
+.contact-footer{
+    margin-top: 4rem;
+    background-color: rgb(18, 18, 97);
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem;
+}
+/* .index.footer{
+    margin-top: 10rem;
+} */
+/* footer section ends here. */
+
+/* @media section starts here. */
+
+@media only screen and (max-width:767px){
+
+/* top-div starts here. */
+.top-logo{
+    width: 10%;
+}
+.top-h1{
+    font-size: 1.7rem;
+    margin-bottom: -0.9rem;  
+    padding-top: 0.3rem;
+}
+.kms{
+    padding-left: 3rem;
+    font-size: 0.7rem;
+}
+/* top-div ends here. */
+
+/* navbar section starts here. */
+.navbar{
+    margin-top: 3.5rem;
+}
+/* navbar section ends here. */
+
+/* advert section starts here. */
+.advert p{
+    text-align: center;
+}
+.advert h4{
+    text-align: center;
+    margin-top: 1rem;
+}
+/* advert section starts here. */
+
+/* global styling starts here. */
+
+/* arrange everything in the card div to be in the center */
+.card {
+  text-align: center;
+} 
+.card:hover{
+    padding-top: 4px;
+}
+/* card section ends here. */
+
+/* Float the columns side by side */
+.column img{
+  height: 10rem;
+}
+
+/* Remove extra left and right margins, due to padding and marging that's added by code editor */
+.col-md-4 {
+  margin: 0;
+  padding: 0;
+}
+
+/* added padding at the left and right side of the website and also added space add the div row tops  */
+.row{
+    padding: 0 0 0 7%;
+    margin-top: 32%;
+    /* margin-bottom: -8rem; */
+}
+.style-2{
+   margin-top: 1.5rem;
+}
+.style-3{
+  margin-top: -0.5rem;
+}
+.style-4 img{
+    margin-top: 1rem;
+}
+.style-5{
+    margin-top: -0.5rem;
+}
+.style-6{
+    margin-top: 1rem;
+}
+/* global styling ends here. */
+
+/* our styles section starts here. */
+.our-styles{
+    margin-top: 20%;
+}
+.seperate-styling{
+    margin-top: -1.5rem;
+}
+/* our styles section starts here. */
+
+/* button section starts here.  */
+.button{
+    margin: 48% 0 -30% 0;
+}
+/* button section ends here.  */
+
+ /* footer sections starts here. */
+ footer{
+    font-size: 0.7rem;
+    padding-left: 0;
+ }
+ .kms-develop{
+    font-size: 0.5rem;
+    color: gray;
+}
+.our-styles div.col-sm-2 img{
+    width: 50%;
+    margin-left: 10%;
+}
+
+/* footer sections ends here. */
+}
+
+/* @media section ends here. */
+
+
