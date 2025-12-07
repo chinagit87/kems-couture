@@ -255,11 +255,14 @@ footer{
     margin-top: 32%;
     /* margin-bottom: -8rem; */
 }
+.style-1{
+    margin-top: -1rem;
+}
 .style-2{
-   margin-top: 1.5rem;
+   margin-top: 0.2rem;
 }
 .style-3{
-  margin-top: -0.5rem;
+  margin-top: 1.3rem;
 }
 .style-4 img{
     margin-top: 1rem;
